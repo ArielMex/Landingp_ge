@@ -16,7 +16,7 @@ const Hero = () => {
                             Kankun 4.0
                         </h1>
                         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl lg:max-w-none mx-auto lg:mx-0">
-                            Descubre un mundo lleno de eventos inolvidables, la mejor música y experiencias únicas
+                        Descubre un mundo de aventuras con Kankun4.0, tu compañero perfecto para explorar nuevos destinos .desde playas paradisíacas hasta ciudades vibrantes.
                         </p>
                         <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
                             <motion.button
@@ -39,24 +39,14 @@ const Hero = () => {
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
-<<<<<<< HEAD
                         className="relative h-[400px] lg:h-[400px]"
                     >
                         <div className="absolute inset-0 bg-gradient-to-r from-kankun-light to-kankun-primary rounded-2xl opacity-20"></div>
-                        <div className="absolute inset-0 flex items-center justify-center">
-                            
-                            <img src="/evento.jpg?height=250&width=400"alt="" />
-                        </div>
-=======
-                        className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden"
-                    >
-                        <div className="absolute inset-0 bg-gradient-to-r from-kankun-light to-kankun-primary opacity-20 z-10"></div>
                         <img
                             src={Image || "/placeholder.svg"}
                             alt="Ciudad al atardecer con niebla"
                             className="absolute inset-0 w-full h-full object-cover"
                         />
->>>>>>> fa5df220cf5d50858d32c4249ce6e423f6e40be8
                     </motion.div>
                 </div>
             </div>
